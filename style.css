@@ -43,8 +43,16 @@ h1 {
     margin: 0px;
 }
 
+.hero-area {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+
 .hero-text {
     margin-left: 80px;
+    margin-bottom: 200px;
 }
 
 .button {
@@ -53,6 +61,7 @@ h1 {
     background-color: coral;
     border-radius: 30px;
     text-align: center;
+    margin-top: 20px;
 }
 
 p {
